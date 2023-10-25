@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about-flex-box {
+    height: 40vh;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* .container {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background-color: black;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+} */
+
+
+/* justifycontent */
+/* .container {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background-color: black;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+} */
+
+/* alingitems (aling items work with item basis.like box 1 2 3 4 5 is one item and another one is box 6 */
+.container {
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    background-color: black;
+    gap: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: center; */
+    align-content: space-evenly;
+}
+
+.item-one {
+    width: 100px;
+    height: 80px;
+    background-color: aqua
+}
+
+.item-two {
+    width: 100px;
+    height: 120px;
+    background-color: yellow;
+}
+
+.item-three {
+    width: 100px;
+    
+    background-color: green;
+}
+
+.item-four {
+    width: 150px;
+    height: 100px;
+    background-color: blueviolet
+}
